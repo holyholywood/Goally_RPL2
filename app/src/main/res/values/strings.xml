@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Goally</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <color name="maincolor1">#82CCDD</color>
+    <color name="maincolor2">#60A3BC</color>
+    <color name="maincolor3">#3C6382</color>
+    <string name="Errormessage"></string>
+    <string name="kalori">2600</string>
+    <string name="title_activity_main_menu">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_articles">articles</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="text">What is a healthy diet?
+
+Eating a healthy diet is not about strict limitations, staying unrealistically thin, or depriving yourself of the foods you love. Rather, it’s about feeling great, having more energy, improving your health, and boosting your mood. Healthy eating doesn’t have to be overly complicated.</string>
+    <string name="articletitle">Healthy Eating</string>
+    <string name="date">June 2020</string>
+</resources>

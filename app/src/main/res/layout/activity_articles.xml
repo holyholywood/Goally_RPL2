@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <LinearLayout android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:padding="0dp"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="105dp"
+            android:orientation="horizontal"
+            android:background="@color/maincolor1"
+            android:layout_gravity="center_vertical"
+            android:padding="30dp">
+
+            <ImageView
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:src="@drawable/ic_menu"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/balsamiqboldfile"
+                android:layout_centerInParent="true"
+                android:text="ARTICLES"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                app:cardCornerRadius="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_personvec"/>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <ScrollView
+                android:layout_width="261dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/strokes">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/articletitle"
+                            android:textColor="@color/maincolor2"
+                            android:textSize="40sp"
+                            android:layout_marginLeft="7dp"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/text"
+                            android:fontFamily="@font/arial"
+                            android:textSize="14sp"
+                            android:layout_margin="10dp"/>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="16dp"
+                                android:src="@drawable/ic_time"
+                                android:layout_marginRight="5dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/date"
+                                android:textSize="14dp"/>
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+                            <ImageButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:gravity="right"
+                                android:src="@drawable/ic_vert" />
+                        </LinearLayout>
+                        <Button
+                            android:id="@+id/Barticle1"
+                            app:backgroundTint="@null"
+                            android:layout_width="95dp"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="8dp"
+                            android:text="View More"
+                            android:textSize="8sp"
+                            android:textColor="@color/maincolor3"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/strokes"
+                            />
+
+                    </LinearLayout>
+            </ScrollView>
+            <ScrollView
+                android:id="@+id/view"
+                android:layout_width="261dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/strokes"
+                android:layout_marginTop="50dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/articletitle"
+                        android:textColor="@color/maincolor2"
+                        android:textSize="40sp"
+                        android:layout_marginLeft="7dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/content"
+                        android:text="@string/text"
+                        android:fontFamily="@font/arialfile"
+                        android:textSize="14sp"
+                        android:layout_margin="10dp"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:src="@drawable/ic_time"
+                            android:layout_marginRight="5dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/date"
+                            android:text="@string/date"
+                            android:textSize="14dp"/>
+                        <Space
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:gravity="right"
+                            android:src="@drawable/ic_vert" />
+                    </LinearLayout>
+                    <Button
+
+                        app:backgroundTint="@null"
+                        android:layout_width="95dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/Barticle2"
+                        android:layout_marginTop="8dp"
+                        android:text="View More"
+                        android:textSize="8sp"
+                        android:textColor="@color/maincolor3"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/strokes"
+                        />
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</ScrollView>
